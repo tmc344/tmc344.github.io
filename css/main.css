@@ -41,16 +41,16 @@
 }
 :root {
   --hue: 210deg;
-  --sat: 100%;
+  --sat: 90%;
   --light: 52%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --accent: #39f;
-  --link: hsla(210deg 100% 45% / 1);
-  --link-a20: hsla(210deg 100% 45% / 0.2);
+  --accent: #47bbf5;
+  --link: hsla(210deg 90% 42% / 1);
+  --link-a20: hsla(210deg 90% 42% / 0.2);
   --item-theme: var(--theme);
   --item-theme-light: color-mix(in srgb, var(--item-theme) 50%, #fff);
   --background: hsla(210deg 20% 98% / 1);
@@ -342,15 +342,15 @@
 }
 .colorful[color='theme'] {
   --hue: 210deg;
-  --sat: 100%;
+  --sat: 90%;
   --light: 52%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --link: hsla(210deg 100% 52% / 1);
-  --link-a20: hsla(210deg 100% 52% / 0.2);
+  --link: hsla(210deg 90% 52% / 1);
+  --link-a20: hsla(210deg 90% 52% / 0.2);
   --theme-border: hsla(210deg 50% 80% / var(--alpha));
   --theme-block: hsla(210deg 90% 92% / var(--alpha));
   --theme-mark: hsla(210deg 95% 80% / var(--alpha));
@@ -364,27 +364,27 @@
   --link-a20: hsla(210deg 95% 32% / 0.2);
 }
 .colorful[color='accent'] {
-  --hue: 210deg;
-  --sat: 100%;
-  --light: 60%;
+  --hue: 200deg;
+  --sat: 90%;
+  --light: 62%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --link: hsla(210deg 100% 60% / 1);
-  --link-a20: hsla(210deg 100% 60% / 0.2);
-  --theme-border: hsla(210deg 50% 80% / var(--alpha));
-  --theme-block: hsla(210deg 90% 92% / var(--alpha));
-  --theme-mark: hsla(210deg 95% 80% / var(--alpha));
-  --theme-codeblock: hsla(210deg 50% 95% / var(--alpha));
-  --text: hsla(210deg 55% 16% / 1);
-  --text-p1: hsla(210deg 90% 20% / 1);
-  --text-p2: hsla(210deg 90% 20% / 0.8);
-  --text-p3: hsla(210deg 90% 20% / 0.6);
-  --text-p4: hsla(210deg 90% 20% / 0.4);
-  --link: hsla(210deg 95% 32% / 1);
-  --link-a20: hsla(210deg 95% 32% / 0.2);
+  --link: hsla(200deg 90% 62% / 1);
+  --link-a20: hsla(200deg 90% 62% / 0.2);
+  --theme-border: hsla(200deg 50% 80% / var(--alpha));
+  --theme-block: hsla(200deg 90% 92% / var(--alpha));
+  --theme-mark: hsla(200deg 95% 80% / var(--alpha));
+  --theme-codeblock: hsla(200deg 50% 95% / var(--alpha));
+  --text: hsla(200deg 55% 16% / 1);
+  --text-p1: hsla(200deg 90% 20% / 1);
+  --text-p2: hsla(200deg 90% 20% / 0.8);
+  --text-p3: hsla(200deg 90% 20% / 0.6);
+  --text-p4: hsla(200deg 90% 20% / 0.4);
+  --link: hsla(200deg 95% 32% / 1);
+  --link-a20: hsla(200deg 95% 32% / 0.2);
 }
 .colorful[color='light'] {
   --theme: #fff;
@@ -545,15 +545,15 @@
 }
 :root[data-theme="dark"] .tag-plugin.tag {
   --hue: 210deg;
-  --sat: 100%;
+  --sat: 90%;
   --light: 52%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --link: hsla(210deg 100% 52% / 1);
-  --link-a20: hsla(210deg 100% 52% / 0.2);
+  --link: hsla(210deg 90% 52% / 1);
+  --link-a20: hsla(210deg 90% 52% / 0.2);
   --theme-border: hsla(210deg 40% 24% / var(--alpha));
   --theme-block: hsla(210deg 24% 24% / var(--alpha));
   --theme-mark: hsla(210deg 24% 24% / var(--alpha));
@@ -753,15 +753,15 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) .tag-plugin.tag {
     --hue: 210deg;
-    --sat: 100%;
+    --sat: 90%;
     --light: 52%;
     --alpha: 1;
     --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
     --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
     --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
     --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-    --link: hsla(210deg 100% 52% / 1);
-    --link-a20: hsla(210deg 100% 52% / 0.2);
+    --link: hsla(210deg 90% 52% / 1);
+    --link-a20: hsla(210deg 90% 52% / 0.2);
     --theme-border: hsla(210deg 40% 24% / var(--alpha));
     --theme-block: hsla(210deg 24% 24% / var(--alpha));
     --theme-mark: hsla(210deg 24% 24% / var(--alpha));
@@ -9684,7 +9684,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   display: inline-block;
   width: 12px;
   height: 1.2em;
-  background: #39f;
+  background: #47bbf5;
   transform: skewX(-20deg);
   margin: 0 0.5em;
   vertical-align: top;
@@ -10557,7 +10557,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   display: inline-block;
   width: 12px;
   height: 1.2em;
-  background: #39f;
+  background: #47bbf5;
   transform: skewX(-20deg);
   margin: 0 0.5em;
   vertical-align: top;
